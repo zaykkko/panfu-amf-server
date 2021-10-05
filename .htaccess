@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^gateway$ ./amf-server/main.php [L]
+RewriteRule ^tracking$ ./tracking-server/main.php [L]
+RewriteRule . - [F,L]
